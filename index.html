@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +14,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="image">
-        <img  src="/img/space.jpg" class="main-img">
+    <div class="main-left">
+        <div class="image">
+            <img  src="/img/space3.png" class="main-img">
+        </div>
+        <div class="logo-space">
+            <img  src="/img/Face.svg" class="logo">
+            <p class="alien">ALIEN</p>
+        </div>
     </div>
-    <div class="logo-space">
-        <img  src="/img/Face.svg" class="logo">
-        <p class="alien">ALIEN</p>
-    </div>
-<div class="container">
+<div class="main-right">
     <div class="form-container">
         <div class="text-container">
             <div class="upper-text">
@@ -55,16 +58,16 @@
                             
                         </li>
                        
-                        <li class="input_fields">
-                            <label for="pwd">PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd" required>
+                        <li class="input_fields password-1">
+                            <label for="pwd1">PASSWORD</label>
+                            <input type="password" name="pwd" id="pwd1" required>
                             
                             
                         </li>
 
-                        <li class="input_fields">
-                            <label for="pwd">CONFIRM PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd" required>
+                        <li class="input_fields password-2">
+                            <label for="pwd2">CONFIRM PASSWORD</label>
+                            <input type="password" name="pwd" id="pwd2" required>
                             
                         </li>
                     </ul>
